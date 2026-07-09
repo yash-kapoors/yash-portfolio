@@ -167,7 +167,7 @@ a{
         padding-left: 5px;
     }
 
-.aboutus-sec h2{
+.aboutus-sec h2,.featured-project h2{
     text-align: center;
     align-items: center;
     text-transform: uppercase;
@@ -189,6 +189,14 @@ a{
     width: 100px;
     align-items: center;
 }
+.featured-project.heading{
+     position: absolute;
+    left: 0%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    width: 100px;
+    align-items: center;
+}
 .heading::after {
     content: '';
     position: absolute;
@@ -202,7 +210,7 @@ a{
     top: 30%;
 }
 .aboutbox{
-    background-color: #2c2929;
+    background-color: #161414;
     padding: 20px;
     color: #fff;
     border-radius: 12px;
@@ -211,9 +219,30 @@ a{
     width: 50px;
     height: 30px;
 }
+.aboutbox{
+    display: flex;
+    gap: 20px;
+    width: 300px;
+}
+.aboutimg{
+        align-items: center;
+}
+.aboutimg img{
+    width: 60px;
+    height: 40px;
 
+}
+.crafting h2{
+    font-size: 30px;
+    color: #fff;
+    font-weight: 500;
+}
 
-
+.crafting p{
+    color: #fff;
+    align-items: center;
+        text-align: center;
+}
 
 
 
