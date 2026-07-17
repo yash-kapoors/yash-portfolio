@@ -4,10 +4,19 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Yash Kapoor</title>
+    <!-- Standard Favicon for browsers -->
+    <link rel="icon" type="image/x-icon" href="favicon/favicon.ico">
+    <!-- For modern browsers (PNG format) -->
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
+    <!-- For Apple devices (iOS Home Screen) -->
+    <link rel="apple-touch-icon" sizes="180x180" href="favicon//apple-touch-icon.png">
+    <title>Yash Kapoor | Front-End Developer Portfolio</title>
+    <meta name="description" content="Portfolio of Yash Kapoor, a Front-End Developer specializing in building responsive and accessible web experiences.">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="manifest" href="manifest.json">
 </head>
 
 <body>
@@ -85,16 +94,18 @@
                         <div class="hero-cont">
                             <p class="hi"><span>hi</span> i'm</p>
                             <h1>yash <span>kapoor</span></h1>
-                            <h2>front end devloper |</h2>
-                            <p class="para">I built responsive,accessibleand pixel-perfect<br> web experience that make
-                                an impacrt</p>
+                            <h2>front end developer |</h2>
+                            <p class="para">I built responsive,accessible and pixel-perfect<br> web experience that make
+                                an impact</p>
                             <div class="butns">
                                 <a href="" class="work">view my work <i
                                         class="fa-solid fa-up-right-from-square"></i></a>
                                 <a href=""> download cv <i class="fa-solid fa-download"></i></a>
                             </div>
                         </div>
-                        <div class="col-md-6"></div>
+                    </div>
+                     <div class=" hero-img col-md-6"> 
+                        <img src="images/hero-img.png" alt="">
                     </div>
                 </div>
             </div>
@@ -104,46 +115,62 @@
 
     </section>
     <!-- aboutus-sec -->
-    <section class="aboutus-sec py-5">
+    <section class="aboutus-sec py-5" id="about">
         <div class="container">
-            <div class="main-heading">
+            <div class="main-heading text-center mb-5">
                 <div class="heading">
-                    <h2>about me</h2>
+                    <h2>About Me</h2>
                 </div>
             </div>
-            <div class="row justify-content-between py-4">
-                <div class="col-md-3 col-12">
+            <div class="row g-4 align-items-center">
+                <div class="col-lg-4 col-md-6 col-12">
                     <div class="aboutbox">
-                        <div class="aboutimg"><img src="images/login.png" alt=""></div>
-                        <p>Detail-oriented developer who writes clean, efficient and maintainable code.</p>
+                        <div class="aboutimg">
+                            <img src="images/user.png" alt="Developer">
+                        </div>
+                        <div>
+                            <p>
+                                Detail-oriented developer who writes clean,
+                                efficient, and maintainable code.
+                            </p>
+                        </div>
                     </div>
                 </div>
-                <div class="col-md-5 col-12">
+                <div class="col-lg-4 col-md-12 col-12">
                     <div class="crafting">
-                    <h2>crafting digital experince</h2>
-                    <p>I'm a passionate Front End Developer who loves turning ideas into interactive and responsive websites. I focus on clean code, performance and great user experience</p>
+                        <h2>Crafting Digital Experiences</h2>
+                        <p>I'm a passionate Front-End Developer who loves turningideas into interactive and responsive websites. I focus
+                            on clean code, performance, and creating excellent user
+                            experiences.
+                        </p>
                     </div>
                 </div>
-                <div class="col-md-3 col-12">
+                <div class="col-lg-4 col-md-6 col-12">
                     <div class="aboutbox">
-                        <div class="aboutimg"><img src="images/login.png" alt=""></div>
-                        <p>Always learning new technologies and building creative projects.</p>
+                        <div class="aboutimg">
+                            <img src="images/user.png" alt="Learning">
+                        </div>
+                        <div>
+                            <p>
+                                Always learning new technologies and building
+                                creative projects.
+                            </p>
+                        </div>
                     </div>
                 </div>
-
             </div>
         </div>
     </section>
     <!-- featured project -->
-     <section class="featured-project py-5">
+    <section class="featured-project py-5">
         <div class="container">
             <div class="main-heading">
                 <div class="heading">
-                    <h2>featued projects</h2>
+                    <h2>featured projects</h2>
                 </div>
             </div>
         </div>
-     </section>
+    </section>
     <script src="js/script.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
 </body>
